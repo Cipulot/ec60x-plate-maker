@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EC60X & EC60X SEPlate Maker</title>
+    <title>EC60X & EC60X SE Plate Maker</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.6.0/jszip.min.js"></script>
@@ -45,8 +45,9 @@
 </head>
 
 <body>
-    <h1>EC60X & EC60X SEPlate Maker</h1>
-    <p>This plate maker is specifically for the EC60X PCB (Rev 1.2 onwards) and the EC60X SE PCB (Rev 1.0 and later) and their own screw hole placement. It is NOT
+    <h1>EC60X & EC60X SE Plate Maker</h1>
+    <p>This plate maker is specifically for the EC60X PCB (Rev 1.2 onwards) and the EC60X SE PCB (Rev 1.0 and later) and
+        their own screw hole placement. It is NOT
         a plate maker for the deprecated EC60.</p>
     <form id="configForm">
         <label for="board">Base Board:</label>
@@ -110,6 +111,12 @@
             <option value="16">7U WKL (6U Stab)</option>
             <option value="17">7U HHKB (6U Stab)</option>
         </select>
+        <label for="switch_type">Switch Type:</label>
+        <select id="switch_type">
+            <option value="" selected disabled hidden>Choose here</option>
+            <option value="General_OEM_Style">General OEM-Style</option>
+            <option value="Dynacap_Style">Dynacap Style</option>
+        </select>
         <label for="hole_type">Hole Type:</label>
         <select id="hole_type">
             <option value="" selected disabled hidden>Choose here</option>
@@ -143,9 +150,13 @@
                     alert("Please select all configurations.");
                 } else {
                     var boardValue = $("#board").val();
-                    var configIndices = $('select').not('#board, #hole_type').map(function () { return $(this).val(); }).get();
+                    var configIndices = $('select').not('#board, #switch_type, #hole_type').map(function () { return $(this).val(); }).get();
+                    var switchType = $("#switch_type").val();
                     var holeType = $("#hole_type").val();
                     var filename = boardValue + "_" + configIndices.join('_');
+                    if (switchType === "Dynacap_Style") {
+                        filename += "_Dynacap";
+                    }
                     if (holeType === "Densus_Inserts") {
                         filename += "_Densus_Inserts";
                     }
