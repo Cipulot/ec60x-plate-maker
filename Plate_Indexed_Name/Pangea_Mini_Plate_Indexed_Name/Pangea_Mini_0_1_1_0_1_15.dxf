@@ -493,7 +493,7 @@ $SKPOLY
   9
 $TDCREATE
  40
-2461042.6064236113
+2461101.069398148
   9
 $TDUCREATE
  40
@@ -501,11 +501,11 @@ $TDUCREATE
   9
 $TDUPDATE
  40
-2461042.6064236113
+2461101.069398148
   9
 $TDUUPDATE
  40
-2461042.563477975
+2461096.557495
   9
 $TDINDWG
  40
@@ -553,7 +553,7 @@ $SPLINESEGS
   9
 $HANDSEED
   5
-1889
+1890
   9
 $SURFTAB1
  70
@@ -909,7 +909,7 @@ $LWDISPLAY
   9
 $INSUNITS
  70
- 4
+4
   9
 $HYPERLINKBASE
   1
@@ -937,7 +937,7 @@ $FINGERPRINTGUID
   9
 $VERSIONGUID
   2
-{A5748498-FFB1-42A7-BED6-3C9110C57434}
+{D005FFFC-A693-4CC0-8BA5-F6C33116C6DE}
   9
 $EXTNAMES
 290
@@ -1255,7 +1255,7 @@ SCENEOE
  90
 1153
  91
-0
+3
 280
 0
 281
@@ -1271,7 +1271,7 @@ SCENEOE
  90
 1024
  91
-0
+3
 280
 0
 281
@@ -1287,7 +1287,7 @@ ObjectDBX Classes
  90
 1025
  91
-0
+3
 280
 0
 281
@@ -1303,7 +1303,7 @@ ObjectDBX Classes
  90
 1025
  91
-0
+3
 280
 0
 281
@@ -1319,7 +1319,7 @@ ISM
  90
 0
  91
-0
+3
 280
 0
 281
@@ -1335,7 +1335,7 @@ ObjectDBX Classes
  90
 0
  91
-0
+1
 280
 0
 281
@@ -1351,7 +1351,7 @@ ObjectDBX Classes
  90
 0
  91
-0
+1
 280
 0
 281
@@ -1687,7 +1687,7 @@ LAYER
 100
 AcDbSymbolTable
  70
-3
+4
   0
 LAYER
   5
@@ -1757,7 +1757,7 @@ Defpoints
  62
 7
   6
-Continuous
+CONTINUOUS
 290
 0
 370
@@ -1766,6 +1766,32 @@ Continuous
 F
 347
 180D
+348
+0
+  0
+LAYER
+  5
+188F
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+Edge.Cuts
+ 70
+0
+ 62
+53
+  6
+CONTINUOUS
+370
+-3
+390
+7E
+347
+86
   0
 ENDTAB
   0
@@ -2290,6 +2316,8 @@ Standard
 3
 290
 0
+340
+11
 371
 -2
 372
@@ -132789,7 +132817,7 @@ AcDbArc
   0
 ARC
   5
-1823
+1829
 330
 1D
 100
@@ -132815,7 +132843,7 @@ AcDbArc
   0
 ARC
   5
-1824
+182A
 330
 1D
 100
@@ -132841,7 +132869,7 @@ AcDbArc
   0
 ARC
   5
-1825
+182B
 330
 1D
 100
@@ -132867,7 +132895,7 @@ AcDbArc
   0
 LINE
   5
-1826
+182C
 330
 1D
 100
@@ -132893,7 +132921,7 @@ AcDbLine
   0
 LINE
   5
-1827
+182D
 330
 1D
 100
@@ -132919,7 +132947,7 @@ AcDbLine
   0
 ARC
   5
-1828
+182E
 330
 1D
 100
@@ -132945,7 +132973,7 @@ AcDbArc
   0
 LINE
   5
-1829
+182F
 330
 1D
 100
@@ -132971,7 +132999,7 @@ AcDbLine
   0
 LINE
   5
-182A
+1830
 330
 1D
 100
@@ -132997,7 +133025,7 @@ AcDbLine
   0
 CIRCLE
   5
-182B
+1831
 330
 1D
 100
@@ -133017,7 +133045,7 @@ AcDbCircle
   0
 LWPOLYLINE
   5
-182C
+1832
 330
 1D
 100
@@ -133073,7 +133101,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-182D
+1833
 330
 1D
 100
@@ -133129,7 +133157,7 @@ AcDbPolyline
   0
 CIRCLE
   5
-182E
+1834
 330
 1D
 100
@@ -133149,7 +133177,7 @@ AcDbCircle
   0
 LWPOLYLINE
   5
-182F
+1835
 330
 1D
 100
@@ -133205,7 +133233,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1830
+1836
 330
 1D
 100
@@ -133261,7 +133289,7 @@ AcDbPolyline
   0
 CIRCLE
   5
-1831
+1837
 330
 1D
 100
@@ -133281,7 +133309,7 @@ AcDbCircle
   0
 CIRCLE
   5
-1832
+1838
 330
 1D
 100
@@ -133301,7 +133329,7 @@ AcDbCircle
   0
 LWPOLYLINE
   5
-1833
+1839
 330
 1D
 100
@@ -133353,7 +133381,7 @@ AcDbPolyline
   0
 CIRCLE
   5
-1834
+183A
 330
 1D
 100
@@ -133373,7 +133401,7 @@ AcDbCircle
   0
 CIRCLE
   5
-1835
+183B
 330
 1D
 100
@@ -133393,7 +133421,7 @@ AcDbCircle
   0
 LWPOLYLINE
   5
-1836
+183C
 330
 1D
 100
@@ -133449,7 +133477,7 @@ AcDbPolyline
   0
 LWPOLYLINE
   5
-1837
+183D
 330
 1D
 100
@@ -133499,163 +133527,7 @@ AcDbPolyline
  42
 -0.4142123908030397
   0
-ARC
-  5
-1838
-330
-1D
-100
-AcDbEntity
-  8
-BLACK
-100
-AcDbCircle
- 10
-240.1625
- 20
--82.7
- 30
-0.0
- 40
-0.5
-100
-AcDbArc
- 50
-270.0
- 51
-0.0
-  0
 LINE
-  5
-1839
-330
-1D
-100
-AcDbEntity
-  8
-BLACK
-  6
-Continuous
-100
-AcDbLine
- 10
-226.5625
- 20
--83.2
- 30
-0.0
- 11
-240.1625
- 21
--83.2
- 31
-0.0
-  0
-ARC
-  5
-183A
-330
-1D
-100
-AcDbEntity
-  8
-BLACK
-100
-AcDbCircle
- 10
-226.5625
- 20
--82.7
- 30
-0.0
- 40
-0.5
-100
-AcDbArc
- 50
-180.0
- 51
-270.0
-  0
-LINE
-  5
-183B
-330
-1D
-100
-AcDbEntity
-  8
-BLACK
-  6
-Continuous
-100
-AcDbLine
- 10
-226.0625
- 20
--69.7
- 30
-0.0
- 11
-226.0625
- 21
--82.7
- 31
-0.0
-  0
-ARC
-  5
-183C
-330
-1D
-100
-AcDbEntity
-  8
-BLACK
-100
-AcDbCircle
- 10
-226.5625
- 20
--69.7
- 30
-0.0
- 40
-0.5
-100
-AcDbArc
- 50
-90.0
- 51
-180.0
-  0
-LINE
-  5
-183D
-330
-1D
-100
-AcDbEntity
-  8
-BLACK
-  6
-Continuous
-100
-AcDbLine
- 10
-240.1625
- 20
--69.2
- 30
-0.0
- 11
-226.5625
- 21
--69.2
- 31
-0.0
-  0
-ARC
   5
 183E
 330
@@ -133663,25 +133535,25 @@ ARC
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
+  6
+CONTINUOUS
 100
-AcDbCircle
+AcDbLine
  10
-240.1625
+-2.5375
  20
--69.7
+-69.700001
  30
 0.0
- 40
-0.5
-100
-AcDbArc
- 50
+ 11
+-2.5375
+ 21
+-82.69999899999999
+ 31
 0.0
- 51
-90.0
   0
-LINE
+ARC
   5
 183F
 330
@@ -133689,25 +133561,25 @@ LINE
 100
 AcDbEntity
   8
-BLACK
-  6
-Continuous
+Edge.Cuts
 100
-AcDbLine
+AcDbCircle
  10
-240.6625
+-2.037478
  20
--82.7
+-69.700041
  30
 0.0
- 11
-240.6625
- 21
--69.7
- 31
-0.0
+ 40
+0.5000220015999296
+100
+AcDbArc
+ 50
+90.00240623
+ 51
+179.99541654
   0
-LINE
+ARC
   5
 1840
 330
@@ -133715,25 +133587,25 @@ LINE
 100
 AcDbEntity
   8
-BLACK
-  6
-Continuous
+Edge.Cuts
 100
-AcDbLine
+AcDbCircle
  10
-6.8
+-2.037478
  20
--69.2
+-82.700041
  30
 0.0
- 11
--6.799999
- 21
--69.2
- 31
-0.0
+ 40
+0.4999590004410361
+100
+AcDbArc
+ 50
+-180.00481263
+ 51
+-90.00240662
   0
-ARC
+LINE
   5
 1841
 330
@@ -133741,23 +133613,23 @@ ARC
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
+  6
+CONTINUOUS
 100
-AcDbCircle
+AcDbLine
  10
-6.8
+-2.037499
  20
--69.7
+-83.2
  30
 0.0
- 40
-0.5
-100
-AcDbArc
- 50
+ 11
+11.5625
+ 21
+-83.2
+ 31
 0.0
- 51
-90.0
   0
 LINE
   5
@@ -133767,21 +133639,21 @@ LINE
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
   6
-Continuous
+CONTINUOUS
 100
 AcDbLine
  10
-7.3
+11.5625
  20
--82.7
+-69.2
  30
 0.0
  11
-7.3
+-2.037499
  21
--69.7
+-69.2
  31
 0.0
   0
@@ -133793,25 +133665,25 @@ ARC
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
 100
 AcDbCircle
  10
-6.8
+11.562522
  20
--82.7
+-69.700041
  30
 0.0
  40
-0.5
+0.5000410004839603
 100
 AcDbArc
  50
-270.0
+0.00469846
  51
-0.0
+90.00252081
   0
-LINE
+ARC
   5
 1844
 330
@@ -133819,25 +133691,25 @@ LINE
 100
 AcDbEntity
   8
-BLACK
-  6
-Continuous
+Edge.Cuts
 100
-AcDbLine
+AcDbCircle
  10
--6.799999
+11.562522
  20
--83.2
+-82.700041
  30
 0.0
- 11
-6.8
- 21
--83.2
- 31
-0.0
+ 40
+0.499978001681074
+100
+AcDbArc
+ 50
+-90.00252122
+ 51
+0.00469846
   0
-ARC
+LINE
   5
 1845
 330
@@ -133845,25 +133717,25 @@ ARC
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
+  6
+CONTINUOUS
 100
-AcDbCircle
+AcDbLine
  10
--6.799999
+12.0625
  20
--82.69999899999999
+-82.7
  30
 0.0
- 40
-0.500001
-100
-AcDbArc
- 50
-180.0
- 51
-270.0
+ 11
+12.0625
+ 21
+-69.7
+ 31
+0.0
   0
-LINE
+CIRCLE
   5
 1846
 330
@@ -133871,25 +133743,19 @@ LINE
 100
 AcDbEntity
   8
-BLACK
-  6
-Continuous
+Edge.Cuts
 100
-AcDbLine
+AcDbCircle
  10
--7.3
+15.478124999999999
  20
--69.700001
+-76.2
  30
 0.0
- 11
--7.3
- 21
--82.69999899999999
- 31
-0.0
+ 40
+1.0
   0
-ARC
+LINE
   5
 1847
 330
@@ -133897,25 +133763,25 @@ ARC
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
+  6
+CONTINUOUS
 100
-AcDbCircle
+AcDbLine
  10
--6.799999
+21.275
  20
--69.700001
+-69.7
  30
 0.0
- 40
-0.500001
-100
-AcDbArc
- 50
-90.0
- 51
-180.0
+ 11
+21.275
+ 21
+-82.7
+ 31
+0.0
   0
-LINE
+ARC
   5
 1848
 330
@@ -133923,23 +133789,23 @@ LINE
 100
 AcDbEntity
   8
-BLACK
-  6
-Continuous
+Edge.Cuts
 100
-AcDbLine
+AcDbCircle
  10
-74.6559
+21.775022
  20
--83.14999999999999
+-69.700041
  30
 0.0
- 11
-87.2559
- 21
--83.14999999999999
- 31
-0.0
+ 40
+0.500022001680926
+100
+AcDbArc
+ 50
+90.00252081
+ 51
+179.99530195
   0
 ARC
   5
@@ -133949,23 +133815,23 @@ ARC
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
 100
 AcDbCircle
  10
-74.6559
+21.775022
  20
--82.64999999999999
+-82.700041
  30
 0.0
  40
-0.5
+0.4999590004840397
 100
 AcDbArc
  50
-180.0
+-180.00469805
  51
-270.0
+-90.00252122
   0
 LINE
   5
@@ -133975,25 +133841,25 @@ LINE
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
   6
-Continuous
+CONTINUOUS
 100
 AcDbLine
  10
-74.1559
+21.775
  20
--69.75
+-83.2
  30
 0.0
  11
-74.1559
+35.375
  21
--82.64999999999999
+-83.2
  31
 0.0
   0
-ARC
+LINE
   5
 184B
 330
@@ -134001,25 +133867,25 @@ ARC
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
+  6
+CONTINUOUS
 100
-AcDbCircle
+AcDbLine
  10
-74.6559
+35.375
  20
--69.75
+-69.2
  30
 0.0
- 40
-0.5
-100
-AcDbArc
- 50
-90.0
- 51
-180.0
+ 11
+21.775
+ 21
+-69.2
+ 31
+0.0
   0
-LINE
+ARC
   5
 184C
 330
@@ -134027,23 +133893,23 @@ LINE
 100
 AcDbEntity
   8
-BLACK
-  6
-Continuous
+Edge.Cuts
 100
-AcDbLine
+AcDbCircle
  10
-87.2559
+35.375022
  20
--69.25
+-69.700041
  30
 0.0
- 11
-74.6559
- 21
--69.25
- 31
-0.0
+ 40
+0.5000410004839603
+100
+AcDbArc
+ 50
+0.00469846
+ 51
+90.00252081
   0
 ARC
   5
@@ -134053,23 +133919,23 @@ ARC
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
 100
 AcDbCircle
  10
-87.2559
+35.375022
  20
--69.75
+-82.700041
  30
 0.0
  40
-0.5
+0.499978001681074
 100
 AcDbArc
  50
-0.0
+-90.00252122
  51
-90.0
+0.00469846
   0
 LINE
   5
@@ -134079,25 +133945,25 @@ LINE
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
   6
-Continuous
+CONTINUOUS
 100
 AcDbLine
  10
-87.7559
+35.875
  20
--82.64999999999999
+-82.7
  30
 0.0
  11
-87.7559
+35.875
  21
--69.75
+-69.7
  31
 0.0
   0
-ARC
+CIRCLE
   5
 184F
 330
@@ -134105,25 +133971,19 @@ ARC
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
 100
 AcDbCircle
  10
-87.2559
+39.290625
  20
--82.64999999999999
+-76.2
  30
 0.0
  40
-0.5
-100
-AcDbArc
- 50
-270.0
- 51
-0.0
+1.0
   0
-ARC
+LINE
   5
 1850
 330
@@ -134131,25 +133991,25 @@ ARC
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
+  6
+CONTINUOUS
 100
-AcDbCircle
+AcDbLine
  10
-202.75
+45.0875
  20
 -69.7
  30
 0.0
- 40
-0.5
-100
-AcDbArc
- 50
-90.0
- 51
-180.0
+ 11
+45.0875
+ 21
+-82.7
+ 31
+0.0
   0
-LINE
+ARC
   5
 1851
 330
@@ -134157,23 +134017,23 @@ LINE
 100
 AcDbEntity
   8
-BLACK
-  6
-Continuous
+Edge.Cuts
 100
-AcDbLine
+AcDbCircle
  10
-216.35
+45.587522
  20
--69.2
+-69.700041
  30
 0.0
- 11
-202.75
- 21
--69.2
- 31
-0.0
+ 40
+0.500022001680926
+100
+AcDbArc
+ 50
+90.00252081
+ 51
+179.99530195
   0
 ARC
   5
@@ -134183,23 +134043,23 @@ ARC
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
 100
 AcDbCircle
  10
-216.35
+45.587522
  20
--69.7
+-82.700041
  30
 0.0
  40
-0.5
+0.4999590004840397
 100
 AcDbArc
  50
-0.0
+-180.00469805
  51
-90.0
+-90.00252122
   0
 LINE
   5
@@ -134209,25 +134069,25 @@ LINE
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
   6
-Continuous
+CONTINUOUS
 100
 AcDbLine
  10
-216.85
+45.5875
  20
--82.7
+-83.2
  30
 0.0
  11
-216.85
+59.1875
  21
--69.7
+-83.2
  31
 0.0
   0
-ARC
+LINE
   5
 1854
 330
@@ -134235,25 +134095,25 @@ ARC
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
+  6
+CONTINUOUS
 100
-AcDbCircle
+AcDbLine
  10
-216.35
+59.1875
  20
--82.7
+-69.2
  30
 0.0
- 40
-0.5
-100
-AcDbArc
- 50
-270.0
- 51
+ 11
+45.5875
+ 21
+-69.2
+ 31
 0.0
   0
-LINE
+ARC
   5
 1855
 330
@@ -134261,23 +134121,23 @@ LINE
 100
 AcDbEntity
   8
-BLACK
-  6
-Continuous
+Edge.Cuts
 100
-AcDbLine
+AcDbCircle
  10
-202.75
+59.187521999999994
  20
--83.2
+-69.700041
  30
 0.0
- 11
-216.35
- 21
--83.2
- 31
-0.0
+ 40
+0.5000410004839603
+100
+AcDbArc
+ 50
+0.00469846
+ 51
+90.00252081
   0
 ARC
   5
@@ -134287,23 +134147,23 @@ ARC
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
 100
 AcDbCircle
  10
-202.75
+59.187521999999994
  20
--82.7
+-82.700041
  30
 0.0
  40
-0.5
+0.499978001681074
 100
 AcDbArc
  50
-180.0
+-90.00252122
  51
-270.0
+0.00469846
   0
 LINE
   5
@@ -134313,25 +134173,25 @@ LINE
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
   6
-Continuous
+CONTINUOUS
 100
 AcDbLine
  10
-202.25
+59.6875
  20
--69.7
+-82.7
  30
 0.0
  11
-202.25
+59.6875
  21
--82.7
+-69.7
  31
 0.0
   0
-LINE
+CIRCLE
   5
 1858
 330
@@ -134339,25 +134199,19 @@ LINE
 100
 AcDbEntity
   8
-BLACK
-  6
-Continuous
+Edge.Cuts
 100
-AcDbLine
+AcDbCircle
  10
-264.475
+61.912499999999994
  20
--82.7
+-76.2
  30
 0.0
- 11
-264.475
- 21
--69.7
- 31
-0.0
+ 40
+1.0
   0
-ARC
+CIRCLE
   5
 1859
 330
@@ -134365,23 +134219,17 @@ ARC
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
 100
 AcDbCircle
  10
-263.975
+104.77499999999999
  20
--82.7
+-76.2
  30
 0.0
  40
-0.5
-100
-AcDbArc
- 50
-270.0
- 51
-0.0
+1.0
   0
 LINE
   5
@@ -134391,21 +134239,21 @@ LINE
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
   6
-Continuous
+CONTINUOUS
 100
 AcDbLine
  10
-250.375
+126.05
  20
--83.2
+-69.7
  30
 0.0
  11
-263.975
+126.05
  21
--83.2
+-82.7
  31
 0.0
   0
@@ -134417,25 +134265,25 @@ ARC
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
 100
 AcDbCircle
  10
-250.375
+126.550022
  20
--82.7
+-69.700041
  30
 0.0
  40
-0.5
+0.500022001680926
 100
 AcDbArc
  50
-180.0
+90.00252081
  51
-270.0
+179.99530195
   0
-LINE
+ARC
   5
 185C
 330
@@ -134443,25 +134291,25 @@ LINE
 100
 AcDbEntity
   8
-BLACK
-  6
-Continuous
+Edge.Cuts
 100
-AcDbLine
+AcDbCircle
  10
-249.875
+126.550022
  20
--69.7
+-82.700041
  30
 0.0
- 11
-249.875
- 21
--82.7
- 31
-0.0
+ 40
+0.4999590004840397
+100
+AcDbArc
+ 50
+-180.00469805
+ 51
+-90.00252122
   0
-ARC
+LINE
   5
 185D
 330
@@ -134469,23 +134317,23 @@ ARC
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
+  6
+CONTINUOUS
 100
-AcDbCircle
+AcDbLine
  10
-250.375
+126.55
  20
--69.7
+-83.2
  30
 0.0
- 40
-0.5
-100
-AcDbArc
- 50
-90.0
- 51
-180.0
+ 11
+140.15
+ 21
+-83.2
+ 31
+0.0
   0
 LINE
   5
@@ -134495,19 +134343,19 @@ LINE
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
   6
-Continuous
+CONTINUOUS
 100
 AcDbLine
  10
-263.975
+140.15
  20
 -69.2
  30
 0.0
  11
-250.375
+126.55
  21
 -69.2
  31
@@ -134521,23 +134369,23 @@ ARC
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
 100
 AcDbCircle
  10
-263.975
+140.150022
  20
--69.7
+-69.700041
  30
 0.0
  40
-0.5
+0.5000410004839603
 100
 AcDbArc
  50
-0.0
+0.00469846
  51
-90.0
+90.00252081
   0
 ARC
   5
@@ -134547,23 +134395,23 @@ ARC
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
 100
 AcDbCircle
  10
-182.5125
+140.150022
  20
--82.64999999999999
+-82.700041
  30
 0.0
  40
-0.5
+0.499978001681074
 100
 AcDbArc
  50
-270.0
+-90.00252122
  51
-0.0
+0.00469846
   0
 LINE
   5
@@ -134573,25 +134421,25 @@ LINE
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
   6
-Continuous
+CONTINUOUS
 100
 AcDbLine
  10
-183.0125
+140.65
  20
--69.75
+-82.7
  30
 0.0
  11
-183.0125
+140.65
  21
--82.64999999999999
+-69.7
  31
 0.0
   0
-ARC
+CIRCLE
   5
 1862
 330
@@ -134599,25 +134447,19 @@ ARC
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
 100
 AcDbCircle
  10
-182.5125
+142.875
  20
--69.75
+-76.2
  30
 0.0
  40
-0.5
-100
-AcDbArc
- 50
-0.0
- 51
-90.0
+1.0
   0
-LINE
+CIRCLE
   5
 1863
 330
@@ -134625,25 +134467,19 @@ LINE
 100
 AcDbEntity
   8
-BLACK
-  6
-Continuous
+Edge.Cuts
 100
-AcDbLine
+AcDbCircle
  10
-169.9125
+171.45
  20
--69.25
+-76.2
  30
 0.0
- 11
-182.5125
- 21
--69.25
- 31
-0.0
+ 40
+1.0
   0
-ARC
+CIRCLE
   5
 1864
 330
@@ -134651,23 +134487,17 @@ ARC
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
 100
 AcDbCircle
  10
-169.9125
+204.7875
  20
--69.75
+-76.2
  30
 0.0
  40
-0.5
-100
-AcDbArc
- 50
-90.0
- 51
-180.0
+1.0
   0
 LINE
   5
@@ -134677,21 +134507,21 @@ LINE
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
   6
-Continuous
+CONTINUOUS
 100
 AcDbLine
  10
-169.4125
+207.0125
  20
--82.64999999999999
+-69.7
  30
 0.0
  11
-169.4125
+207.0125
  21
--69.75
+-82.7
  31
 0.0
   0
@@ -134703,25 +134533,25 @@ ARC
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
 100
 AcDbCircle
  10
-169.9125
+207.512522
  20
--82.64999999999999
+-69.700041
  30
 0.0
  40
-0.5
+0.500022001680926
 100
 AcDbArc
  50
-180.0
+90.00252081
  51
-270.0
+179.99530195
   0
-LINE
+ARC
   5
 1867
 330
@@ -134729,23 +134559,23 @@ LINE
 100
 AcDbEntity
   8
-BLACK
-  6
-Continuous
+Edge.Cuts
 100
-AcDbLine
+AcDbCircle
  10
-182.5125
+207.512522
  20
--83.14999999999999
+-82.700041
  30
 0.0
- 11
-169.9125
- 21
--83.14999999999999
- 31
-0.0
+ 40
+0.4999590004840397
+100
+AcDbArc
+ 50
+-180.00469805
+ 51
+-90.00252122
   0
 LINE
   5
@@ -134755,25 +134585,25 @@ LINE
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
   6
-Continuous
+CONTINUOUS
 100
 AcDbLine
  10
-40.325
+207.5125
  20
--69.7
+-83.2
  30
 0.0
  11
-40.325
+221.11249999999998
  21
--82.7
+-83.2
  31
 0.0
   0
-ARC
+LINE
   5
 1869
 330
@@ -134781,25 +134611,25 @@ ARC
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
+  6
+CONTINUOUS
 100
-AcDbCircle
+AcDbLine
  10
-40.825
+221.11249999999998
  20
--69.7
+-69.2
  30
 0.0
- 40
-0.5
-100
-AcDbArc
- 50
-90.0
- 51
-180.0
+ 11
+207.5125
+ 21
+-69.2
+ 31
+0.0
   0
-LINE
+ARC
   5
 186A
 330
@@ -134807,23 +134637,23 @@ LINE
 100
 AcDbEntity
   8
-BLACK
-  6
-Continuous
+Edge.Cuts
 100
-AcDbLine
+AcDbCircle
  10
-54.425
+221.11252199999998
  20
--69.2
+-69.700041
  30
 0.0
- 11
-40.825
- 21
--69.2
- 31
-0.0
+ 40
+0.5000410004839603
+100
+AcDbArc
+ 50
+0.00469846
+ 51
+90.00252081
   0
 ARC
   5
@@ -134833,23 +134663,23 @@ ARC
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
 100
 AcDbCircle
  10
-54.425
+221.11252199999998
  20
--69.7
+-82.700041
  30
 0.0
  40
-0.5
+0.499978001681074
 100
 AcDbArc
  50
-0.0
+-90.00252122
  51
-90.0
+0.00469846
   0
 LINE
   5
@@ -134859,25 +134689,25 @@ LINE
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
   6
-Continuous
+CONTINUOUS
 100
 AcDbLine
  10
-54.925
+221.61249999999998
  20
 -82.7
  30
 0.0
  11
-54.925
+221.61249999999998
  21
 -69.7
  31
 0.0
   0
-ARC
+CIRCLE
   5
 186D
 330
@@ -134885,23 +134715,17 @@ ARC
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
 100
 AcDbCircle
  10
-54.425
+228.6
  20
--82.7
+-76.2
  30
 0.0
  40
-0.5
-100
-AcDbArc
- 50
-270.0
- 51
-0.0
+1.0
   0
 LINE
   5
@@ -134911,21 +134735,21 @@ LINE
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
   6
-Continuous
+CONTINUOUS
 100
 AcDbLine
  10
-40.825
+230.825
  20
--83.2
+-69.7
  30
 0.0
  11
-54.425
+230.825
  21
--83.2
+-82.7
  31
 0.0
   0
@@ -134937,23 +134761,23 @@ ARC
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
 100
 AcDbCircle
  10
-40.825
+231.325022
  20
--82.7
+-69.700041
  30
 0.0
  40
-0.5
+0.500022001680926
 100
 AcDbArc
  50
-180.0
+90.00252081
  51
-270.0
+179.99530195
   0
 ARC
   5
@@ -134963,23 +134787,23 @@ ARC
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
 100
 AcDbCircle
  10
-121.7875
+231.325022
  20
--69.7
+-82.700041
  30
 0.0
  40
-0.5
+0.4999590004840397
 100
 AcDbArc
  50
-90.0
+-180.00469805
  51
-180.0
+-90.00252122
   0
 LINE
   5
@@ -134989,25 +134813,25 @@ LINE
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
   6
-Continuous
+CONTINUOUS
 100
 AcDbLine
  10
-135.3875
+231.325
  20
--69.2
+-83.2
  30
 0.0
  11
-121.7875
+244.92499999999998
  21
--69.2
+-83.2
  31
 0.0
   0
-ARC
+LINE
   5
 1872
 330
@@ -135015,25 +134839,25 @@ ARC
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
+  6
+CONTINUOUS
 100
-AcDbCircle
+AcDbLine
  10
-135.3875
+244.92499999999998
  20
--69.7
+-69.2
  30
 0.0
- 40
-0.5
-100
-AcDbArc
- 50
+ 11
+231.325
+ 21
+-69.2
+ 31
 0.0
- 51
-90.0
   0
-LINE
+ARC
   5
 1873
 330
@@ -135041,23 +134865,23 @@ LINE
 100
 AcDbEntity
   8
-BLACK
-  6
-Continuous
+Edge.Cuts
 100
-AcDbLine
+AcDbCircle
  10
-135.8875
+244.92502199999998
  20
--82.7
+-69.700041
  30
 0.0
- 11
-135.8875
- 21
--69.7
- 31
-0.0
+ 40
+0.5000410004839603
+100
+AcDbArc
+ 50
+0.00469846
+ 51
+90.00252081
   0
 ARC
   5
@@ -135067,23 +134891,23 @@ ARC
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
 100
 AcDbCircle
  10
-135.3875
+244.92502199999998
  20
--82.7
+-82.700041
  30
 0.0
  40
-0.5
+0.499978001681074
 100
 AcDbArc
  50
-270.0
+-90.00252122
  51
-0.0
+0.00469846
   0
 LINE
   5
@@ -135093,25 +134917,25 @@ LINE
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
   6
-Continuous
+CONTINUOUS
 100
 AcDbLine
  10
-121.7875
+245.42499999999998
  20
--83.2
+-82.7
  30
 0.0
  11
-135.3875
+245.42499999999998
  21
--83.2
+-69.7
  31
 0.0
   0
-ARC
+CIRCLE
   5
 1876
 330
@@ -135119,23 +134943,17 @@ ARC
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
 100
 AcDbCircle
  10
-121.7875
+251.22187499999998
  20
--82.7
+-76.2
  30
 0.0
  40
-0.5
-100
-AcDbArc
- 50
-180.0
- 51
-270.0
+1.0
   0
 LINE
   5
@@ -135145,19 +134963,19 @@ LINE
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
   6
-Continuous
+CONTINUOUS
 100
 AcDbLine
  10
-121.2875
+254.6375
  20
 -69.7
  30
 0.0
  11
-121.2875
+254.6375
  21
 -82.7
  31
@@ -135171,25 +134989,25 @@ ARC
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
 100
 AcDbCircle
  10
-17.0125
+255.137522
  20
--82.7
+-69.700041
  30
 0.0
  40
-0.5
+0.500022001680926
 100
 AcDbArc
  50
-180.0
+90.00252081
  51
-270.0
+179.99530195
   0
-LINE
+ARC
   5
 1879
 330
@@ -135197,25 +135015,25 @@ LINE
 100
 AcDbEntity
   8
-BLACK
-  6
-Continuous
+Edge.Cuts
 100
-AcDbLine
+AcDbCircle
  10
-16.5125
+255.137522
  20
--69.7
+-82.700041
  30
 0.0
- 11
-16.5125
- 21
--82.7
- 31
-0.0
+ 40
+0.4999590004840397
+100
+AcDbArc
+ 50
+-180.00469805
+ 51
+-90.00252122
   0
-ARC
+LINE
   5
 187A
 330
@@ -135223,23 +135041,23 @@ ARC
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
+  6
+CONTINUOUS
 100
-AcDbCircle
+AcDbLine
  10
-17.0125
+255.1375
  20
--69.7
+-83.2
  30
 0.0
- 40
-0.5
-100
-AcDbArc
- 50
-90.0
- 51
-180.0
+ 11
+268.7375
+ 21
+-83.2
+ 31
+0.0
   0
 LINE
   5
@@ -135249,19 +135067,19 @@ LINE
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
   6
-Continuous
+CONTINUOUS
 100
 AcDbLine
  10
-30.6125
+268.7375
  20
 -69.2
  30
 0.0
  11
-17.0125
+255.1375
  21
 -69.2
  31
@@ -135275,13 +135093,455 @@ ARC
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
 100
 AcDbCircle
  10
-30.6125
+268.737522
  20
+-69.700041
+ 30
+0.0
+ 40
+0.5000410004839603
+100
+AcDbArc
+ 50
+0.00469846
+ 51
+90.00252081
+  0
+ARC
+  5
+187D
+330
+1D
+100
+AcDbEntity
+  8
+Edge.Cuts
+100
+AcDbCircle
+ 10
+268.737522
+ 20
+-82.700041
+ 30
+0.0
+ 40
+0.499978001681074
+100
+AcDbArc
+ 50
+-90.00252122
+ 51
+0.00469846
+  0
+LINE
+  5
+187E
+330
+1D
+100
+AcDbEntity
+  8
+Edge.Cuts
+  6
+CONTINUOUS
+100
+AcDbLine
+ 10
+269.2375
+ 20
+-82.7
+ 30
+0.0
+ 11
+269.2375
+ 21
 -69.7
+ 31
+0.0
+  0
+LINE
+  5
+187F
+330
+1D
+100
+AcDbEntity
+  8
+Edge.Cuts
+  6
+CONTINUOUS
+100
+AcDbLine
+ 10
+78.91839999999999
+ 20
+-82.64999999999999
+ 30
+0.0
+ 11
+78.91839999999999
+ 21
+-69.75
+ 31
+0.0
+  0
+LINE
+  5
+1880
+330
+1D
+100
+AcDbEntity
+  8
+Edge.Cuts
+  6
+CONTINUOUS
+100
+AcDbLine
+ 10
+79.41839999999999
+ 20
+-69.25
+ 30
+0.0
+ 11
+92.0184
+ 21
+-69.25
+ 31
+0.0
+  0
+LINE
+  5
+1881
+330
+1D
+100
+AcDbEntity
+  8
+Edge.Cuts
+  6
+CONTINUOUS
+100
+AcDbLine
+ 10
+92.0184
+ 20
+-83.14999999999999
+ 30
+0.0
+ 11
+79.41839999999999
+ 21
+-83.14999999999999
+ 31
+0.0
+  0
+LINE
+  5
+1882
+330
+1D
+100
+AcDbEntity
+  8
+Edge.Cuts
+  6
+CONTINUOUS
+100
+AcDbLine
+ 10
+92.5184
+ 20
+-69.75
+ 30
+0.0
+ 11
+92.5184
+ 21
+-82.64999999999999
+ 31
+0.0
+  0
+LINE
+  5
+1883
+330
+1D
+100
+AcDbEntity
+  8
+Edge.Cuts
+  6
+CONTINUOUS
+100
+AcDbLine
+ 10
+174.17499999999998
+ 20
+-82.64999999999999
+ 30
+0.0
+ 11
+174.17499999999998
+ 21
+-69.75
+ 31
+0.0
+  0
+LINE
+  5
+1884
+330
+1D
+100
+AcDbEntity
+  8
+Edge.Cuts
+  6
+CONTINUOUS
+100
+AcDbLine
+ 10
+174.67499999999998
+ 20
+-69.25
+ 30
+0.0
+ 11
+187.275
+ 21
+-69.25
+ 31
+0.0
+  0
+LINE
+  5
+1885
+330
+1D
+100
+AcDbEntity
+  8
+Edge.Cuts
+  6
+CONTINUOUS
+100
+AcDbLine
+ 10
+187.275
+ 20
+-83.14999999999999
+ 30
+0.0
+ 11
+174.67499999999998
+ 21
+-83.14999999999999
+ 31
+0.0
+  0
+LINE
+  5
+1886
+330
+1D
+100
+AcDbEntity
+  8
+Edge.Cuts
+  6
+CONTINUOUS
+100
+AcDbLine
+ 10
+187.775
+ 20
+-69.75
+ 30
+0.0
+ 11
+187.775
+ 21
+-82.64999999999999
+ 31
+0.0
+  0
+ARC
+  5
+1887
+330
+1D
+100
+AcDbEntity
+  8
+Edge.Cuts
+100
+AcDbCircle
+ 10
+79.418401
+ 20
+-69.750001
+ 30
+0.0
+ 40
+0.500001000001
+100
+AcDbArc
+ 50
+90.00011459
+ 51
+179.99988541
+  0
+ARC
+  5
+1888
+330
+1D
+100
+AcDbEntity
+  8
+Edge.Cuts
+100
+AcDbCircle
+ 10
+79.418401
+ 20
+-82.649999
+ 30
+0.0
+ 40
+0.500001000001
+100
+AcDbArc
+ 50
+-179.99988541
+ 51
+-90.00011459
+  0
+ARC
+  5
+1889
+330
+1D
+100
+AcDbEntity
+  8
+Edge.Cuts
+100
+AcDbCircle
+ 10
+92.018399
+ 20
+-69.750001
+ 30
+0.0
+ 40
+0.500001000001
+100
+AcDbArc
+ 50
+0.00011459
+ 51
+89.99988541
+  0
+ARC
+  5
+188A
+330
+1D
+100
+AcDbEntity
+  8
+Edge.Cuts
+100
+AcDbCircle
+ 10
+92.018399
+ 20
+-82.649999
+ 30
+0.0
+ 40
+0.500001000001
+100
+AcDbArc
+ 50
+-89.99988541
+ 51
+-0.00011459
+  0
+ARC
+  5
+188B
+330
+1D
+100
+AcDbEntity
+  8
+Edge.Cuts
+100
+AcDbCircle
+ 10
+174.67499999999998
+ 20
+-69.75
+ 30
+0.0
+ 40
+0.5
+100
+AcDbArc
+ 50
+90.0
+ 51
+180.0
+  0
+ARC
+  5
+188C
+330
+1D
+100
+AcDbEntity
+  8
+Edge.Cuts
+100
+AcDbCircle
+ 10
+174.67499999999998
+ 20
+-82.64999999999999
+ 30
+0.0
+ 40
+0.5
+100
+AcDbArc
+ 50
+-180.0
+ 51
+-90.0
+  0
+ARC
+  5
+188D
+330
+1D
+100
+AcDbEntity
+  8
+Edge.Cuts
+100
+AcDbCircle
+ 10
+187.275
+ 20
+-69.75
  30
 0.0
  40
@@ -135293,47 +135553,21 @@ AcDbArc
  51
 90.0
   0
-LINE
-  5
-187D
-330
-1D
-100
-AcDbEntity
-  8
-BLACK
-  6
-Continuous
-100
-AcDbLine
- 10
-31.1125
- 20
--82.7
- 30
-0.0
- 11
-31.1125
- 21
--69.7
- 31
-0.0
-  0
 ARC
   5
-187E
+188E
 330
 1D
 100
 AcDbEntity
   8
-BLACK
+Edge.Cuts
 100
 AcDbCircle
  10
-30.6125
+187.275
  20
--82.7
+-82.64999999999999
  30
 0.0
  40
@@ -135341,215 +135575,9 @@ AcDbCircle
 100
 AcDbArc
  50
-270.0
+-90.0
  51
-0.0
-  0
-LINE
-  5
-187F
-330
-1D
-100
-AcDbEntity
-  8
-BLACK
-  6
-Continuous
-100
-AcDbLine
- 10
-17.0125
- 20
--83.2
- 30
-0.0
- 11
-30.6125
- 21
--83.2
- 31
-0.0
-  0
-CIRCLE
-  5
-1880
-330
-1D
-100
-AcDbEntity
-  8
-BLACK
-100
-AcDbCircle
- 10
-246.459375
- 20
--76.2
- 30
-0.0
- 40
-1.0
-  0
-CIRCLE
-  5
-1881
-330
-1D
-100
-AcDbEntity
-  8
-BLACK
-100
-AcDbCircle
- 10
-34.528125
- 20
--76.2
- 30
-0.0
- 40
-1.0
-  0
-CIRCLE
-  5
-1882
-330
-1D
-100
-AcDbEntity
-  8
-BLACK
-100
-AcDbCircle
- 10
-200.025
- 20
--76.2
- 30
-0.0
- 40
-1.0
-  0
-CIRCLE
-  5
-1883
-330
-1D
-100
-AcDbEntity
-  8
-BLACK
-100
-AcDbCircle
- 10
-138.1125
- 20
--76.2
- 30
-0.0
- 40
-1.0
-  0
-CIRCLE
-  5
-1884
-330
-1D
-100
-AcDbEntity
-  8
-BLACK
-100
-AcDbCircle
- 10
-10.715625
- 20
--76.2
- 30
-0.0
- 40
-1.0
-  0
-CIRCLE
-  5
-1885
-330
-1D
-100
-AcDbEntity
-  8
-BLACK
-100
-AcDbCircle
- 10
-100.0125
- 20
--76.2
- 30
-0.0
- 40
-1.0
-  0
-CIRCLE
-  5
-1886
-330
-1D
-100
-AcDbEntity
-  8
-BLACK
-100
-AcDbCircle
- 10
-166.6875
- 20
--76.2
- 30
-0.0
- 40
-1.0
-  0
-CIRCLE
-  5
-1887
-330
-1D
-100
-AcDbEntity
-  8
-BLACK
-100
-AcDbCircle
- 10
-223.8375
- 20
--76.2
- 30
-0.0
- 40
-1.0
-  0
-CIRCLE
-  5
-1888
-330
-1D
-100
-AcDbEntity
-  8
-BLACK
-100
-AcDbCircle
- 10
-57.15
- 20
--76.2
- 30
-0.0
- 40
-1.0
+-0.0
   0
 ENDSEC
   0
@@ -135566,6 +135594,10 @@ C
 AcDbDictionary
 281
 1
+  3
+ACAD_COLOR
+350
+181C
   3
 ACAD_DETAILVIEWSTYLE
 350
@@ -135621,15 +135653,21 @@ AcDbVariableDictionary
   3
 ACDB_RECOMPOSE_DATA
 350
-1816
-  3
-ACAD_COLOR
-350
-181C
+1828
   3
 EZDXF_META
 350
 1821
+  0
+DICTIONARY
+  5
+181C
+330
+C
+100
+AcDbDictionary
+281
+1
   0
 DICTIONARY
   5
@@ -136061,7 +136099,7 @@ MSLTSCALE
   0
 XRECORD
   5
-1816
+1828
 102
 {ACAD_REACTORS
 330
@@ -136078,6 +136116,22 @@ AcDbXrecord
 1
 330
 180F
+  0
+DICTIONARY
+  5
+1821
+330
+C
+100
+AcDbDictionary
+280
+1
+281
+1
+  3
+WRITTEN_BY_EZDXF
+360
+1822
   0
 LAYOUT
   5
@@ -137289,7 +137343,7 @@ TABLESTYLE
 102
 {ACAD_XDICTIONARY
 360
-1814
+1826
 102
 }
 102
@@ -143843,9 +143897,21 @@ DictionaryVariables
   1
 0
   0
+DICTIONARYVAR
+  5
+1822
+330
+1821
+100
+DictionaryVariables
+280
+0
+  1
+1.4.3 @ 2026-03-01T09:39:56.586647+00:00
+  0
 DICTIONARY
   5
-1814
+1826
 330
 180F
 100
@@ -143857,19 +143923,19 @@ AcDbDictionary
   3
 ACAD_ROUNDTRIP_2008_TABLESTYLE_CELLSTYLEMAP
 360
-1815
+1827
   0
 CELLSTYLEMAP
   5
-1815
+1827
 102
 {ACAD_REACTORS
 330
-1814
+1826
 102
 }
 330
-1814
+1826
 100
 AcDbCellStyleMap
  90
@@ -144504,44 +144570,6 @@ CELLSTYLE_BEGIN
 _DATA
 309
 CELLSTYLE_END
-  0
-DICTIONARY
-  5
-181C
-330
-C
-100
-AcDbDictionary
-281
-1
-  0
-DICTIONARY
-  5
-1821
-330
-C
-100
-AcDbDictionary
-280
-1
-281
-1
-  3
-WRITTEN_BY_EZDXF
-350
-1822
-  0
-DICTIONARYVAR
-  5
-1822
-330
-1821
-100
-DictionaryVariables
-280
-0
-  1
-1.4.3 @ 2026-01-01T13:33:15.446810+00:00
   0
 ENDSEC
   0
