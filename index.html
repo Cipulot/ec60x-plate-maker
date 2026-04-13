@@ -110,6 +110,21 @@
         <button type="submit">Download</button>
     </form>
 
+    <div id="licenseModal" class="license-modal" aria-hidden="true">
+        <div class="license-modal__backdrop"></div>
+        <div class="license-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="licenseModalTitle">
+            <h2 id="licenseModalTitle">License agreement</h2>
+            <p>
+                By continuing, you agree to the terms of the
+                <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC-SA 4.0 License</a>.
+            </p>
+            <div class="license-modal__actions">
+                <button type="button" id="licenseDecline" class="license-modal__button license-modal__button--secondary">Cancel</button>
+                <button type="button" id="licenseAccept" class="license-modal__button">I Agree</button>
+            </div>
+        </div>
+    </div>
+
     <footer>
         <p>&copy; 2025 Cipulot</p>
         <p>All files are provided under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
@@ -121,87 +136,118 @@
 
     <script>
         $(document).ready(function () {
+            var pendingDownload = null;
+
+            function hideLicenseModal() {
+                $("#licenseModal").removeClass("is-visible").attr("aria-hidden", "true");
+            }
+
+            function showLicenseModal(onAccept) {
+                pendingDownload = onAccept;
+                $("#licenseModal").addClass("is-visible").attr("aria-hidden", "false");
+            }
+
+            function startDownload() {
+                var boardValue = $("#board").val();
+                var configIndices = $('select').not('#board, #switch_type').map(function () { return $(this).val(); }).get();
+                var switchType = $("#switch_type").val();
+                var filename = boardValue + "_" + configIndices.join('_');
+                if (switchType === "Dynacap_Style") {
+                    filename += "_Dynacap";
+                }
+                filename += ".dxf";
+
+                var fileUrl = 'https://raw.githubusercontent.com/Cipulot/ec60x-plate-maker/refs/heads/main/Plate_Indexed_Name/' + boardValue + '_Plate_Indexed_Name/' + filename;
+                var licenseUrl = 'https://raw.githubusercontent.com/Cipulot/ec60x-plate-maker/refs/heads/main/LICENSE';
+
+                fetch(fileUrl)
+                    .then(response => response.arrayBuffer())
+                    .then(arrayBuffer => {
+                        var byteArray = new Uint8Array(arrayBuffer);
+
+                        var zip = new JSZip();
+                        zip.file(filename, byteArray);
+
+                        fetch(licenseUrl)
+                            .then(response => response.text())
+                            .then(licenseText => {
+                                zip.file("LICENSE", licenseText);
+
+                                var additionalFiles = [];
+
+                                // Handle additional files for EC60X_Tray_Mount
+                                if (boardValue === "EC60X_Tray_Mount") {
+                                    additionalFiles.push(
+                                        'https://raw.githubusercontent.com/Cipulot/ec60x-plate-maker/refs/heads/main/EC_Plate_Specifications.pdf',
+                                        'https://raw.githubusercontent.com/Cipulot/ec60x-plate-maker/refs/heads/main/special_countersunk.png?raw=true',
+                                        'https://raw.githubusercontent.com/Cipulot/ec60x-plate-maker/refs/heads/main/tray_mount_countersinking.pdf'
+                                    );
+                                }
+
+                                additionalFiles.push('https://raw.githubusercontent.com/Cipulot/ec60x-plate-maker/refs/heads/main/EC_Plate_Specifications.pdf');
+
+                                // Fetch and add all additional files to the zip
+                                Promise.all(additionalFiles.map(fileUrl => fetch(fileUrl).then(response => response.arrayBuffer())))
+                                    .then(fileBufferArray => {
+                                        additionalFiles.forEach((fileUrl, index) => {
+                                            var fileName = fileUrl.split('/').pop().split('?')[0]; // Extract filename from URL
+                                            var byteArray = new Uint8Array(fileBufferArray[index]);
+                                            zip.file(fileName, byteArray);
+                                        });
+
+                                        // Generate and save the zip file
+                                        zip.generateAsync({ type: "blob" }).then(function (content) {
+                                            var zipFilename = boardValue + "_" + configIndices.join('_');
+                                            if (switchType === "Dynacap_Style") {
+                                                zipFilename += "_Dynacap";
+                                            }
+                                            zipFilename += ".zip";
+                                            saveAs(content, zipFilename);
+                                        });
+                                    })
+                                    .catch(error => {
+                                        console.error('Error fetching additional files:', error);
+                                    });
+                            })
+                            .catch(error => {
+                                console.error('Error fetching license:', error);
+                            });
+                    })
+                    .catch(error => {
+                        console.error('Error fetching DXF file:', error);
+                    });
+            }
+
             $("#configForm").submit(function (e) {
                 e.preventDefault();
                 var isFormFilled = true;
                 $('select').each(function () {
-                    if ($(this).val() == null) {
+                    if ($(this).val() == null || $(this).val() === "") {
                         isFormFilled = false;
                         return false;
                     }
                 });
                 if (!isFormFilled) {
                     alert("Please select all configurations.");
-                } else {
-                    var boardValue = $("#board").val();
-                    var configIndices = $('select').not('#board, #switch_type').map(function () { return $(this).val(); }).get();
-                    var switchType = $("#switch_type").val();
-                    var filename = boardValue + "_" + configIndices.join('_');
-                    if (switchType === "Dynacap_Style") {
-                        filename += "_Dynacap";
-                    }
-                    filename += ".dxf";
-
-                    var fileUrl = 'https://raw.githubusercontent.com/Cipulot/ec60x-plate-maker/refs/heads/main/Plate_Indexed_Name/' + boardValue + '_Plate_Indexed_Name/' + filename;
-                    var licenseUrl = 'https://raw.githubusercontent.com/Cipulot/ec60x-plate-maker/refs/heads/main/LICENSE';
-
-                    fetch(fileUrl)
-                        .then(response => response.arrayBuffer())
-                        .then(arrayBuffer => {
-                            var byteArray = new Uint8Array(arrayBuffer);
-
-                            var zip = new JSZip();
-                            zip.file(filename, byteArray);
-
-                            fetch(licenseUrl)
-                                .then(response => response.text())
-                                .then(licenseText => {
-                                    zip.file("LICENSE", licenseText);
-
-                                    var additionalFiles = [];
-
-                                    // Handle additional files for EC60X_Tray_Mount
-                                    if (boardValue === "EC60X_Tray_Mount") {
-                                        additionalFiles.push(
-                                            'https://raw.githubusercontent.com/Cipulot/ec60x-plate-maker/refs/heads/main/EC_Plate_Specifications.pdf',
-                                            'https://raw.githubusercontent.com/Cipulot/ec60x-plate-maker/refs/heads/main/special_countersunk.png?raw=true',
-                                            'https://raw.githubusercontent.com/Cipulot/ec60x-plate-maker/refs/heads/main/tray_mount_countersinking.pdf'
-                                        );
-                                    }
-
-                                    additionalFiles.push('https://raw.githubusercontent.com/Cipulot/ec60x-plate-maker/refs/heads/main/EC_Plate_Specifications.pdf');
-
-                                    // Fetch and add all additional files to the zip
-                                    Promise.all(additionalFiles.map(fileUrl => fetch(fileUrl).then(response => response.arrayBuffer())))
-                                        .then(fileBufferArray => {
-                                            additionalFiles.forEach((fileUrl, index) => {
-                                                var fileName = fileUrl.split('/').pop().split('?')[0]; // Extract filename from URL
-                                                var byteArray = new Uint8Array(fileBufferArray[index]);
-                                                zip.file(fileName, byteArray);
-                                            });
-
-                                            // Generate and save the zip file
-                                            zip.generateAsync({ type: "blob" }).then(function (content) {
-                                                var zipFilename = boardValue + "_" + configIndices.join('_');
-                                                if (switchType === "Dynacap_Style") {
-                                                    zipFilename += "_Dynacap";
-                                                }
-                                                zipFilename += ".zip";
-                                                saveAs(content, zipFilename);
-                                            });
-                                        })
-                                        .catch(error => {
-                                            console.error('Error fetching additional files:', error);
-                                        });
-                                })
-                                .catch(error => {
-                                    console.error('Error fetching license:', error);
-                                });
-                        })
-                        .catch(error => {
-                            console.error('Error fetching DXF file:', error);
-                        });
+                    return;
                 }
+
+                showLicenseModal(function () {
+                    hideLicenseModal();
+                    startDownload();
+                });
+            });
+
+            $("#licenseAccept").on("click", function () {
+                if (typeof pendingDownload === "function") {
+                    pendingDownload();
+                }
+                pendingDownload = null;
+            });
+
+            $("#licenseDecline, #licenseModal .license-modal__backdrop").on("click", function () {
+                pendingDownload = null;
+                hideLicenseModal();
             });
         });
     </script>
